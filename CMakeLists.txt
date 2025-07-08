@@ -6,4 +6,4 @@ set(CMAKE_CXX_STANDARD 26)
 include_directories(./src)
 
 file(GLOB pace_src CONFIGURE_DEPENDS "src/*.cpp")
-add_executable(pace ${pace_src})
+add_executable(flow_cutter_pace17 ${pace_src})
